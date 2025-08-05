@@ -4,11 +4,13 @@ export const LOGO =
 export const USER_AVATAR =
   "https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png";
 
-
-  export const API_OPTIONS  = {
-  method: 'GET',
+export const API_OPTIONS = {
+  method: "GET",
   headers: {
-    accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwODAwYzk4OWMwMWRmN2VmNTgyY2NhZmQ1YTlhYzExNiIsIm5iZiI6MTc1NDI5NTMzOS43OTksInN1YiI6IjY4OTA2YzJiMDQ0MWNiMzVmZDExZGU3YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SLx9cif6gPh6f4gGIn_a6NI0kjWTl4HlLX4VSmprqdU'
-  }
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwODAwYzk4OWMwMWRmN2VmNTgyY2NhZmQ1YTlhYzExNiIsIm5iZiI6MTc1NDI5NTMzOS43OTksInN1YiI6IjY4OTA2YzJiMDQ0MWNiMzVmZDExZGU3YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SLx9cif6gPh6f4gGIn_a6NI0kjWTl4HlLX4VSmprqdU",
+  },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
